@@ -10,7 +10,7 @@ def test_pass_prediction():
 
     result = predictor.predict_result(20, 90, 4)
 
-    assert result == "Fail"
+    assert result == "Pass"
 
 
 def test_fail_prediction():
