@@ -28,6 +28,7 @@ jobs:
 
       - name: Run SCA
         run: |
+          pip install --upgrade setuptools
           pip install pip-audit
           python -m pip_audit
 
